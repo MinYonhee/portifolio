@@ -1,2 +1,33 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css');
 @import url('https://cdn.jsdelivr.net/npm/@iconscout/unicons@4.0.8/css/line.min.css');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,600');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+:root {
+    --body-color: rgba(250, 250, 250);
+    --color-white: rgba(250, 250, 250);
+    --text-color-second: rgba(38, 37, 37);
+    --first-color: rgba(110, 87, 224);
+    --first-color: rgba(0, 0, 0.1);
+
+    --body-color: #ffff;
+    --nav-color: #ffff;
+    --nav-icon: #000;
+    --logo-color: #000;
+
+    --text-color: #444444;
+    --color-white: #242526;
+
+    --icon-color: #242526;
+    --mode-color: #ccc;
+}
+
+body {
+    background: var(--body-color);
+}
