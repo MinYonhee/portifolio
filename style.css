@@ -429,6 +429,7 @@ i {
     font-weight: 500;
     transition: all 0.5s ease;
 }
+
 /*--skill box--*/
 .skill {
     position: relative;
@@ -515,6 +516,67 @@ i {
     z-index: 1;
 }
 
+/*--Others Skills Box*/
+
+.skills-section {
+    text-align: center;
+    margin: 40px 0; /* Maior separação entre seções */
+  }
+  
+  .skills-section h2 {
+    margin-bottom: 30px; /* Espaçamento entre título e categorias */
+    color: var(--text-color-second); /* Mantendo a cor suave */
+  }
+  
+  .skills-category-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px; /* Espaçamento maior entre os cartões */
+    flex-wrap: wrap; /* Responsividade para dispositivos menores */
+  }
+  
+  .skills-category {
+    background-color: var(--box-color); /* Fundo consistente com "Projects" */
+    background: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.1); /* Borda sutil */
+    border-radius: 15px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra mais suave */
+    text-align: center;
+    padding: 25px 20px; /* Espaçamento interno maior */
+    width: 220px; /* Largura consistente com o layout abaixo */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .skills-category:hover {
+    transform: translateY(-8px); /* Efeito mais pronunciado ao passar o mouse */
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2); /* Destaque ao hover */
+  }
+  
+  .skills-category h3 {
+    font-size: 1.2rem; /* Títulos ligeiramente maiores */
+    color: var(--text-color); /* Texto padrão */
+    margin-bottom: 15px;
+  }
+  
+  .skills-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Maior espaçamento entre ícones */
+    flex-wrap: wrap;
+  }
+  
+  .skills-icons img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+  
+  .skills-icons img:hover {
+    transform: scale(1.3); /* Ampliação mais visível no hover */
+    opacity: 0.8;
+  }
+  
+  
 /*--Projects box-- */
 
 .project-container {
