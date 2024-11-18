@@ -543,7 +543,7 @@ i {
   .skills-category {
     background-color: var(--box-color); /* Fundo consistente com "Projects" */
     background: transparent;
-    border: 1px solid rgba(0, 0, 0, 0.1); /* Borda sutil */
+    border: 2px solid #fff;    
     border-radius: 15px; /* Bordas arredondadas */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra mais suave */
     text-align: center;
