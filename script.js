@@ -1,11 +1,22 @@
 const body = document.querySelector("body"),
-    toggleSwich = document.getElementById("toggle-switch");
-toggleSwich.addEventListener("click", ()=> {
+    toggleSwitch = document.getElementById("toggle-switch");
+
+// Definir o modo noturno como padrão ao carregar a página
+body.classList.add("dark");
+
+toggleSwitch.addEventListener("click", () => {
     body.classList.toggle("dark");
+
+    // Salva a preferência no localStorage para lembrar a escolha do usuário
+    if (body.classList.contains("dark")) {
+        localStorage.setItem("darkMode", "enabled");
+    } else {
+        localStorage.setItem("darkMode", "disabled");
+    }
 });
 
 let typingEffect = new Typed(".typedText", {
-    strings: ["UX Designer", "Coder", "Developer"],
+    strings: ["Developer", "UX Designer", "Coder", ],
 
     loop: true,
     typeSpeed: 100,
