@@ -469,7 +469,7 @@ i {
     animation: progress 0.4s ease-in-out forwards;
 }
 
-.skill-per html {
+.skill-per.html {
     animation-delay: 0.1s;
     width: 80%;
     background: #8749f2;
@@ -478,12 +478,12 @@ i {
 
 .skill-per.css {
     animation-delay: 0.1s;
-    width: 80%;
+    width: 70%;
 }
 
 .skill-per.python {
     animation-delay: 0.1s;
-    width: 70%;
+    width: 60%;
 }
 
 .skill-per.javaScript {
